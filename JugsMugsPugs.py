@@ -12,11 +12,11 @@ number=int(input())
 
 if number%105 == 0 :
 	print("JugsMugsPugs")
-elif number%3 == 0 and number%5 == 0:
+elif number%35 == 0 :
 	print("JugsMugs")
-elif number%3 == 0 and number%7 == 0:
+elif number%21 == 0:
 	print("JugsPugs")
-elif number%5 == 0 and number%7 == 0:
+elif number%15 == 0:
 	print("MugsPugs")
 elif number%7 == 0:
 	print("Pugs")
