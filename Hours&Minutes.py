@@ -11,5 +11,4 @@
 
 T = int(input('Enter Time in seconds'))
 
-print('hours :',T//60)//60)
-print('minutes : ',T//60//60//60)
+print((a//60)//60,a//60)
